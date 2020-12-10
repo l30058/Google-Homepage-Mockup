@@ -5,8 +5,37 @@ body{
 
 
 img{
-    width: 25%;
+    width: 28%;
 }
+
+Nav{
+    padding:10px;
+}
+
+form{
+    padding: 50px 0 35px 0 ;
+   
+}
+
+input{
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 3.25em;
+    background-color: white;
+}
+
+
+#topright{
+display: block;
+float: right;
+}
+
+#topleft{
+display: block;
+float: left;
+}
+
 
 .homepagelinks{
     text-decoration:none;
@@ -17,6 +46,27 @@ img{
 
 }
 
+.homepagelinks-img{
+    text-decoration:none;
+    font-size:0.75em;
+    margin: auto;
+    padding: 25px;
+    color: rgb(65, 64, 64);
+    width: 40px;
+
+}
+
+#subtext{
+    color: blue;
+    text-align:center;
+    margin: auto;
+    float: center;
+    display: block;
+    padding: 25px 0 0 0;
+    font-size: small;
+}
+
+
 a{
     text-decoration: none;
 }
@@ -25,8 +75,48 @@ a :hover{
     text-decoration: underline;
 }
 
+
+#content{
+background-color:  rgb(255, 255, 255);
+min-height: 70vh;
+width:100%;
+margin:auto;
+padding:150px 0 0 0;
+display: block;
+}
+
+.centro{
+    display: block;
+    margin: auto;
+    float: center;
+    text-align: center;
+
+}
+
+#sign-in{
+background-color: #4285F4;
+color: white;
+border-radius: 2px;
+padding:5px 10px 5px 10px;
+border-style: hidden;
+font-weight: medium;
+}
+
+.dou-buttons{
+padding:10px 15px 10px 15px;
+background-color: rgb(235, 235, 235);
+border-radius: 2px;
+border-style: hidden;
+font-weight: medium;
+margin: auto;
+}
+
+
+
 #footie{
     background-color: rgb(233, 233, 233);
     min-width:100%;
-
+    min-height: 5vh;
+    position: fixed;
+    bottom: 0;
 }

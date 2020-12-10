@@ -7,17 +7,18 @@
 </head>
 <body>
     <nav>
-        <a href="#"><span class="homepagelinks">About</span></a>
-        <a href="#"><span class="homepagelinks">Store</span></a>
-        <a href="#"><span class="homepagelinks">Gmail</span></a>
+        <div id="topleft"><a href="#"><span class="homepagelinks">About</span></a>
+        <a href="#"><span class="homepagelinks">Store</span></a></div>
+       <div id="topright"> <a href="#"><span class="homepagelinks">Gmail</span></a>
         <a href="#"><span class="homepagelinks">images</span></a>
-        <a href="#"><span class="homepagelinks">small Grid</span></a>
-        <a href="#">sign in button</a>
+        <a href="#"><span class="homepagelinks-img"><img src="https://www.materialui.co/materialIcons/image/grid_on_grey_192x192.png" style="max-width: 20px; max-height: 20px; float: center;"></span></a>
+        <button id="sign-in">Sign in</button></div>
     </nav>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-<form action="#"> <input type="text" placeholder=""></form>
-<div><button>Google Search</button> <Button>I'm Feeling Lucky</Button></div>
-<p>New! Check out Grasshopper, coding lessions in Spanish for beginners</p>
+<div id="content">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="centro">
+<form action="#" class="centro" id="searchbox"> <input type="text" placeholder=""></form>
+<div class="centro"><button class="dou-buttons">Google Search</button> <Button class="dou-buttons">I'm Feeling Lucky</Button></div>
+<p class="centro"><a href="#" id="subtext">See the top search trends of 2020</a></p>
 <br>
 <br>
 <br>
@@ -26,6 +27,7 @@
 <br>
 <br>
 <br>
+</div>
 <footer>
 <div id="footie">
     <a href="#"><span class="homepagelinks">Advertising</span></a>
